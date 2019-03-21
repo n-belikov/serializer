@@ -1,12 +1,11 @@
 {
     "name": "niburkin/serializer",
     "description": "Serializer for Laravel",
-    "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7",
+        "php": ">=7.2",
         "illuminate/support": "5.5.x|5.6.x|5.7.x|5.8.x",
         "barryvdh/laravel-cors": "^0.11.3"
     },
