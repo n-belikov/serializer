@@ -2,8 +2,8 @@
 
 namespace DummyNamespace;
 
-use Serializer\Contracts\SerializerInterface;
-use Serializer\Traits\SerializerTrait;
+use NiBurkin\Serializer\Contracts\SerializerInterface;
+use NiBurkin\Serializer\Traits\SerializerTrait;
 use Illuminate\Support\Collection;
 use DummyRootNamespaceDummyFullObject;
 

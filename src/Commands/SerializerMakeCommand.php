@@ -67,6 +67,6 @@ class SerializerMakeCommand extends GeneratorCommand
 
     protected function getDefaultNamespace($rootNamespace)
     {
-        return $rootNamespace . "\Serializers\Concrete";
+        return $rootNamespace . "\Serializers";
     }
 }
