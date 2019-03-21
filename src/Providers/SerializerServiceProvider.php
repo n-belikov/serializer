@@ -40,6 +40,6 @@ class SerializerServiceProvider extends ServiceProvider
 
     protected function configPath()
     {
-        return __DIR__ . '/../config/serializer.php';
+        return __DIR__ . '/../../config/serializer.php';
     }
 }
