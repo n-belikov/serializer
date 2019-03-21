@@ -33,3 +33,7 @@ php artisan make:serializer ClassName
 
 Options:
 * `--o` or `--object` - auto create serializer for you class in project app.
+
+## License
+
+Released under the MIT License, see [LICENSE](LICENSE).
