@@ -4,8 +4,10 @@
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
-        "laravel/laravel": "5.8.*",
+        "php": ">=7",
+        "illuminate/support": "5.5.x|5.6.x|5.7.x|5.8.x",
         "barryvdh/laravel-cors": "^0.11.3"
     },
     "authors": [
@@ -14,6 +16,16 @@
             "email": "evan.gelior@ya.ru"
         }
     ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Serializer\\Providers\\SerializerServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-0": {
             "Serializer": "src/"
