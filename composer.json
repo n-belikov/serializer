@@ -2,6 +2,7 @@
     "name": "niburkin/serializer",
     "description": "Serializer for Laravel",
     "type": "library",
+    "license": "MIT",
     "minimum-stability": "dev",
     "require": {
         "laravel/laravel": "5.8.*",
