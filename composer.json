@@ -1,0 +1,21 @@
+{
+    "name": "niburkin/serializer",
+    "description": "Serializer for Laravel",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/laravel": "5.8.*",
+        "barryvdh/laravel-cors": "^0.11.3"
+    },
+    "authors": [
+        {
+            "name": "Nikita Burkin",
+            "email": "evan.gelior@ya.ru"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Serializer": "src/"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+<?php
+
+namespace DummyNamespace;
+
+use Serializer\Contracts\SerializerInterface;
+use Serializer\Traits\SerializerTrait;
+use Illuminate\Support\Collection;
+use DummyRootNamespaceDummyFullObject;
+
+class DummyClass implements SerializerInterface
+{
+    use SerializerTrait;
+
+    /**
+     * @var string
+     */
+    private $name = 'DummyName';
+
+    /**
+     * @param DummyObject $object
+     * @param string $name
+     * @param array $params
+     *
+     * @return array|\JsonSerializable
+     */
+    public function serialize($object, $name, $params = [])
+    {
+        return [];
+    }
+
+    /**
+     * @param DummyObject $object
+     * @param string $name
+     *
+     * @return bool
+     */
+    public function accepts($object, $name)
+    {
+        return $this->name === $name && $object instanceof DummyObject;
+    }
+}
