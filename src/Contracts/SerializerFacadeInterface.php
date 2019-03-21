@@ -1,6 +1,6 @@
 <?php
 
-namespace Serializer\Contracts;
+namespace NiBurkin\Serializer\Contracts;
 
 
 /**

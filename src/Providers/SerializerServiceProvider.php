@@ -1,12 +1,12 @@
 <?php
 
-namespace Serializer\Providers;
+namespace NiBurkin\Serializer\Providers;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
-use Serializer\Commands\SerializerMakeCommand;
-use Serializer\Contracts\SerializerFacadeInterface;
-use Serializer\Facades\Serializer;
+use NiBurkin\Serializer\Commands\SerializerMakeCommand;
+use NiBurkin\Serializer\Contracts\SerializerFacadeInterface;
+use NiBurkin\Serializer\Facades\Serializer;
 
 class SerializerServiceProvider extends ServiceProvider
 {

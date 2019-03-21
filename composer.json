@@ -17,17 +17,17 @@
     ],
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1-dev"
+            "dev-master": "0.2-dev"
         },
         "laravel": {
             "providers": [
-                "Serializer\\Providers\\SerializerServiceProvider"
+                "NiBurkin\\Serializer\\Providers\\SerializerServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-0": {
-            "Serializer": "src/"
+            "NiBurkin\\Serializer": "src/"
         }
     }
 }

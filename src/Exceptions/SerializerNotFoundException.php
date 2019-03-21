@@ -1,6 +1,6 @@
 <?php
 
-namespace Serializer\Exceptions;
+namespace NiBurkin\Serializer\Exceptions;
 
 
 /**

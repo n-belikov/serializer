@@ -1,10 +1,10 @@
 <?php
 
-namespace Serializer\Facades;
+namespace NiBurkin\Serializer\Facades;
 
 
-use Serializer\Contracts\SerializerFacadeInterface;
-use Serializer\Contracts\SerializerInterface;
+use NiBurkin\Serializer\Contracts\SerializerFacadeInterface;
+use NiBurkin\Serializer\Contracts\SerializerInterface;
 
 class Serializer implements SerializerFacadeInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Serializer\Commands;
+namespace NiBurkin\Serializer\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\GeneratorCommand;

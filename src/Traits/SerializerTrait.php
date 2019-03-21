@@ -1,9 +1,9 @@
 <?php
 
-namespace Serializer\Traits;
+namespace NiBurkin\Serializer\Traits;
 
 
-use Serializer\Contracts\SerializerFacadeInterface;
+use NiBurkin\Serializer\Contracts\SerializerFacadeInterface;
 
 trait SerializerTrait
 {
